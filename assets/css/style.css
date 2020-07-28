@@ -1,0 +1,86 @@
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+.alert-container {}
+
+.callout-container {
+    height: 100vh;
+
+    background: url("../images/Whisky_Drinks_Highball_glass_Ice_525452_3840x2400.jpg") no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quotes-container {}
+
+.features-container {}
+
+.favorites-container {}
+
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.jumbotron .lead {
+    margin: 25px 0;
+    color: #dedede;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #e6e6e6;
+}
+
+.block-divider {
+    width: 150px;
+    height: 5px;
+    border: 0;
+}
+
+.block-divider--orange {
+    background-color: #d64500;
+}
+
+.block-divider--short {
+    width: 80px;
+}
+
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color: #ce300e;
+    border-color: #ce300e;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #f85935;
+    border-color: #f85935;
+}
